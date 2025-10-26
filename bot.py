@@ -4,8 +4,16 @@ from os import remove
 from subprocess import call
 
 from aiohttp import ClientSession
-from discord import (Client, Embed, File, Intents, Interaction,
-                     InteractionResponded, User, app_commands)
+from discord import (
+    Client,
+    Embed,
+    File,
+    Intents,
+    Interaction,
+    InteractionResponded,
+    User,
+    app_commands,
+)
 from numpy import array, copy
 from PIL import Image
 
